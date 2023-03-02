@@ -1,0 +1,71 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: cursive;
+    font-size: 22px; 
+}
+.container{
+    width: 98%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.text-left{
+    text-align: left;
+}
+.color1{
+    background-color: #7b9095;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 25%;
+    float: left;
+}
+.menu{
+    line-height: 50px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-size: 170%;
+    font-weight: bold;
+}
+
+
+.text-right{
+    text-align: right;
+}
+
+a{
+    color: #2f3542;
+    text-decoration: none;
+}
+a:hover{
+    color: #747d8c;
+}
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+.text-center{
+    text-align: center;
+}

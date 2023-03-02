@@ -1,0 +1,205 @@
+
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: cursive;
+}
+.container{
+    width: 98%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.color1{
+    background-color: #7b9095;
+}
+
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-black{
+    color: black;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #2f3542;
+    text-decoration: none;
+}
+a:hover{
+    color: #747d8c;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.btn-primary{
+    background-color: #4fbb4f;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #71c792;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position:static;
+    bottom: 50px;
+    left: 40%;
+    color: #2f3542;
+}
+
+
+/* CSS for navbar section */
+
+.logo{
+    width: 25%;
+    float: left;
+}
+.menu{
+    line-height: 50px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-size: 170%;
+    font-weight: bold;
+}
+
+
+/* CSS for bgimg section */
+
+.bgimg{
+    background-image: url(../images/bgimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10% 0;
+}
+
+
+
+
+/* CSS for services */
+.services{
+    padding: 0.5% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section 
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+} */
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .social{
+        padding: 5% 0;
+    }
+    
+}
+
+.success{
+    color: #2ed573;
+ }
+ .error{
+     color: #ff4757;
+  }

@@ -1,0 +1,136 @@
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family:cursive;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+a{
+    color: #2f3542;
+    text-decoration: none;
+}
+a:hover{
+    color: #747d8c;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid grey;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+
+}
+
+/* CSS for menu */
+.menu{
+    background-color: #7b9095;
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-size: 130%;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: white;
+  border: 2px solid #C02F8E; 
+    padding: 1%;
+    color: #C02F8E;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.btn-primary:hover{
+    background-color: #e6b2d4;
+}
+.btn-secondary{
+    background-color: white;
+  border: 2px solid #4CAF50; 
+    padding: 1%;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.btn-secondary:hover{
+    background-color: #83dda8;
+}
+
+.btn-danger{
+    background-color: white;
+  border: 2px solid #BC1616; 
+    padding: 1%;
+    color: #BC1616;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 40px;
+}
+.btn-danger:hover{
+    background-color: #d68282;
+}
+
+
+/* CSS for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.success{
+   color: #2ed573;
+}
+.error{
+    color: #ff4757;
+ }
+
+/* CSS for footer */
+.footer{
+    background-color: #7b9095;
+}
+
+/* CSS for login */
+.loginclass{
+    border: 1px solid black;
+    width: 30%;
+    margin: 5% auto;
+    padding: 2%;
+}
